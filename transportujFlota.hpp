@@ -4,6 +4,8 @@
 
 unsigned int transportujFlota(unsigned int towar)
 {
+    if (towar == 0) return 0;
+
     unsigned int przetransportowany_towar{};
     unsigned int liczba_zaglowcow{};
 
